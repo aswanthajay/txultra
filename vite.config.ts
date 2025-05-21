@@ -3,6 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
   build: {
     outDir: 'dist',
     rollupOptions: {
@@ -26,3 +29,2711 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
 });
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        worker: 'src/worker.ts'
+      },
+      output: {
+        entryFileNames: (chunkInfo) => {
+          return chunkInfo.name === 'worker' ? 'worker.js' : 'assets/[name]-[hash].js'
+        }
+      }
+    }
+  }
+})
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+  build:
